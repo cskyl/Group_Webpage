@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Deepti Ghadiyaram — Boston University</title>
+<meta name="description" content="The research group of Prof. Deepti Ghadiyaram at Boston University: safe, interpretable, and robust computer vision and generative systems." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23cc0000'/%3E%3Ctext x='50' y='72' font-size='62' font-family='Georgia,serif' fill='white' text-anchor='middle'%3EG%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+
+<!-- ── Navigation ───────────────────────────── -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="#top" class="nav__brand">
+      <span class="nav__mark">G</span>
+      <span class="nav__name" id="brandName">Ghadiyaram Lab</span>
+    </a>
+    <nav class="nav__links" id="navLinks">
+      <a href="#people">People</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#news">News</a>
+      <a href="#join">Join</a>
+    </nav>
+    <button class="nav__burger" id="navBurger" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ── Hero + PI ────────────────────────────── -->
+<section class="hero">
+  <div class="hero__text">
+    <p class="hero__eyebrow" id="heroEyebrow"></p>
+    <h1 class="hero__title" id="heroTitle"></h1>
+    <p class="hero__lede" id="heroLede"></p>
+    <div class="hero__cta">
+      <a class="btn btn--solid" href="#people">Meet the group</a>
+      <a class="btn btn--line" href="#research">Research</a>
+    </div>
+  </div>
+
+  <aside class="pi" id="about">
+    <div class="pi__photo" id="piPhoto"></div>
+    <div class="pi__info">
+      <p class="pi__label">Principal Investigator</p>
+      <h2 class="pi__name">Deepti Ghadiyaram</h2>
+      <p class="pi__role">Assistant Professor of Computer Science</p>
+      <p class="pi__affil">Boston University</p>
+      <div class="pi__links" id="piLinks"></div>
+    </div>
+  </aside>
+</section>
+
+<!-- ── People ───────────────────────────────── -->
+<section class="section" id="people">
+  <div class="head">
+    <span class="kicker">The team</span>
+    <h2 class="head__title">People</h2>
+  </div>
+
+  <div class="people-block">
+    <h3 class="people-block__title">PhD Students</h3>
+    <div class="pgrid pgrid--lg" id="phd"></div>
+  </div>
+  <div class="people-block">
+    <h3 class="people-block__title">Master&rsquo;s Students</h3>
+    <div class="pgrid" id="ms"></div>
+  </div>
+  <div class="people-block">
+    <h3 class="people-block__title">Undergraduate &amp; High-School Researchers</h3>
+    <div class="pgrid" id="ugrad"></div>
+  </div>
+</section>
+
+<!-- ── Research ─────────────────────────────── -->
+<section class="section section--tint" id="research">
+  <div class="head">
+    <span class="kicker">What we work on</span>
+    <h2 class="head__title">Research</h2>
+  </div>
+  <div class="rgrid" id="research-grid"></div>
+</section>
+
+<!-- ── Publications ─────────────────────────── -->
+<section class="section" id="publications">
+  <div class="head">
+    <span class="kicker">Selected work</span>
+    <h2 class="head__title">Publications</h2>
+    <p class="head__sub">
+      More on
+      <a href="https://scholar.google.com/citations?user=NyKCrmoAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>.
+    </p>
+  </div>
+  <div class="pubgrid" id="pubList"></div>
+</section>
+
+<!-- ── News ─────────────────────────────────── -->
+<section class="section section--tint" id="news">
+  <div class="head">
+    <span class="kicker">Latest</span>
+    <h2 class="head__title">News</h2>
+  </div>
+  <ol class="news" id="newsList"></ol>
+</section>
+
+<!-- ── Join ─────────────────────────────────── -->
+<section class="section section--join" id="join">
+  <div class="join">
+    <span class="kicker">Open positions</span>
+    <h2 class="join__title">Join the lab</h2>
+    <p class="join__text">
+      We welcome students excited about generative models, interpretability, multimodal reasoning,
+      and the safety of vision systems. Prospective PhDs: apply to BU CS and mention the lab.
+    </p>
+    <div class="join__cta">
+      <a class="btn btn--solid" href="mailto:dghadiya@bu.edu">Email the lab</a>
+      <a class="btn btn--line" href="https://www.bu.edu/cs/" target="_blank" rel="noopener">BU Computer Science ↗</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ── Footer ───────────────────────────────── -->
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__brand">
+      <span class="nav__mark">G</span>
+      <div>
+        <strong id="footBrand">Ghadiyaram Lab</strong>
+        <span>Boston University · Department of Computer Science</span>
+      </div>
+    </div>
+    <div class="footer__links">
+      <a href="https://deeptigp.github.io/" target="_blank" rel="noopener">Homepage</a>
+      <a href="https://scholar.google.com/citations?user=NyKCrmoAAAAJ&hl=en" target="_blank" rel="noopener">Scholar</a>
+      <a href="https://github.com/deeptigp" target="_blank" rel="noopener">GitHub</a>
+      <a href="mailto:dghadiya@bu.edu">Email</a>
+    </div>
+  </div>
+  <p class="footer__fine">© <span id="year"></span> <span id="footName">Ghadiyaram Lab</span>, Boston University.</p>
+</footer>
+
+<button class="totop" id="toTop" aria-label="Back to top">↑</button>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
