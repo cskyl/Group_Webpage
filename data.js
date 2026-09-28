@@ -98,7 +98,8 @@ const PEOPLE = {
     { name: "Chaitanya Chakka", role: "MS Student", years: "2025–",
       photo: "img/chaitanya-chakka.jpg",
       links: { Web: "https://chaitanya-chakka-portfolio.netlify.app/" } },
-    { name: "Sanjana",          role: "MS Student", links: {} },
+    { name: "Sanjana Sanjeev Kumar", role: "MS Student",
+      links: { LinkedIn: "https://www.linkedin.com/in/sanjana-sanjeev-kumar/" } },
     { name: "Ying Huang",       role: "MS Student", years: "2026–", links: {} },
     { name: "Zhuoqi (Adam) Chen", role: "MS Student", years: "2026–", links: {} },
     { name: "Snigdha Agarwal",  role: "Researcher",
@@ -115,7 +116,7 @@ const PEOPLE = {
     { name: "Ryan Gilbert",      role: "Undergraduate", years: "UROP · Spring 2025",
       photo: "img/ryan-gilbert.jpg",
       links: { Web: "https://ryan-j-gilbert.github.io/portfolio-cv/" } },
-    { name: "Audrey Zhang",      role: "High School",   years: "RISE · Summer 2025", links: {} },
+    { name: "Audrey Zheng",      role: "High School",   years: "RISE · Summer 2025", links: {} },
     { name: "Ananya Srinivasan", role: "High School",   years: "Summer 2025",        links: {} },
   ],
 };
@@ -189,7 +190,7 @@ const PUBS = [
 ];
 
 const NEWS = [
-  { date: "Sep 2026", text: "Welcome to our new members <strong>Nazia Tasnim</strong>, <strong>Keanu Nichols</strong>, <strong>Ying Huang</strong>, <strong>Zhuoqi (Adam) Chen</strong>, <strong>Sanjana</strong>, and <strong>Snigdha Agarwal</strong>!" },
+  { date: "Sep 2026", text: "Welcome to our new members <strong>Nazia Tasnim</strong>, <strong>Keanu Nichols</strong>, <strong>Ying Huang</strong>, <strong>Zhuoqi (Adam) Chen</strong>, <strong>Sanjana Sanjeev Kumar</strong>, and <strong>Snigdha Agarwal</strong>!" },
   { date: "Apr 2026", text: "Two papers accepted at <strong>CVPR 2026</strong> &mdash; &ldquo;Some Modalities Are More Equal Than Others&rdquo; (Findings) and <strong>DDiT</strong> (Spotlight)." },
   { date: "Feb 2026", text: "The lab&rsquo;s work on <strong>AI assistants for pediatric emergency care</strong> was covered by BU News." },
   { date: "Dec 2025", text: "Prof. Ghadiyaram was interviewed by <strong>Computer Vision News</strong>." },
